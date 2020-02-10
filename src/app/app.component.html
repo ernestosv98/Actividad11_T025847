@@ -1,0 +1,13 @@
+<div class="parent">
+  <h1>{{title}}</h1>
+
+  <input type="text" #inp>
+
+  <div>
+    <button (click) = "changeInput(inp)" class="button" >Ingresar</button>
+  </div>
+
+  <p> El valor de mi variable es:</p>
+  <h2> {{inp.value}} </h2>
+</div>
+
